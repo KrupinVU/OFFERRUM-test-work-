@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nootris</title>
+    <link rel="stylesheet" href="css/styles.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="content-wrapper header__content-wrapper">
+        <a href="/" class="logo header__logo" aria-label="Ссылка на главную">
+          <img src="./img/logo.svg" aria-hidden="true" />
+        </a>
+        <div class="burger" role="button" aria-label="Показать мобильное меню">
+          <div class="burger__bar"></div>
+          <div class="burger__bar"></div>
+          <div class="burger__bar"></div>
+          <div class="burger__bar"></div>
+        </div>
+        <nav class="nav header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="/faq.php" class="nav__link">FAQ</a>
+            </li>
+            <li class="nav__item">
+              <a href="#payment" class="nav__link">Оплата и доставка</a>
+            </li>
+            <li class="nav__item">
+              <a href="#return" class="nav__link">Возврат</a>
+            </li>
+            <li class="nav__item">
+              <a href="#research" class="nav__link">Исследования</a>
+            </li>
+            <li class="nav__item">
+              <a href="/account.php" class="nav__link">Личный кабинет</a>
+            </li>
+            <li class="nav__item">
+              <a href="tel:88006000990" class="nav__link">8 (800) 600-09-90</a>
+            </li>
+            <li class="nav__item">
+              <a href="/cart.php" class="nav__link cart">
+                <img src="./img/cart.svg" aria-hidden="true" />
+                <span class="cart__counter">1</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="intro">
+        <div class="intro__top-line"></div>
+        <div class="content-wrapper intro__content-wrapper">
+          <h1 class="intro__title">Активируй иммунитет!</h1>
+          <p class="intro__desc intro__desc--top">
+            Всего пять секунд в день помогут укрепить иммунитет и повысить
+            защитные силы организма
+          </p>
+          <p class="intro__desc desc-bottom">
+            <span class="desc-bottom__bold-text">Nootris помогает</span>
+            Вашему организму во время пандемии и сезонных простуд
+          </p>
+          <div class="intro__bg-img">
+            <img src="./img/first.png" aria-hidden="true" />
+          </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="content-wrapper benefits__content-wrapper">
+          <h2 class="visually-hidden">Достоинства нашего продукта</h2>
+          <p class="benefits__title">
+            Получи защиту иммунитета
+            <span class="colored">со скидкой -15% первым!</span>
+          </p>
+          <div class="benefits__price benefits-price">
+            <p class="benefits-price__prev">750&#x20bd;</p>
+            <p class="benefits-price__current">690&#x20bd;</p>
+          </div>
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <div class="benefits__img">
+                <img src="./img/ginger.png" alt="" />
+              </div>
+              <div>
+                <p class="benefits__desc">Содержит</p>
+                <p class="benefits__desc colored">имбирь</p>
+              </div>
+            </li>
+            <li class="benefits__item">
+              <div class="benefits__img">
+                <img src="./img/nootris.png" alt="" />
+              </div>
+              <div>
+                <p class="benefits__desc benefits__desc--top">
+                  + Бесплатная доставка
+                </p>
+                <p class="benefits__desc benefits__desc--bottom colored">
+                  Специальная цена
+                </p>
+              </div>
+            </li>
+            <li class="benefits__item">
+              <div class="benefits__img">
+                <img src="./img/virus.png" alt="" />
+              </div>
+              <div>
+                <p class="benefits__desc">Нейтрализует</p>
+                <p class="benefits__desc colored">вирусы</p>
+              </div>
+            </li>
+          </ul>
+          <a href="/cart.php" class="benefits__order" role="button"
+            >Оформить заказ!</a
+          >
+        </div>
+      </section>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
